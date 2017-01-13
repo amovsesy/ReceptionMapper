@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 
+Toms's When running reception mapper in eclipse, use key:
+0fF6yNDO6E0yQeq_6L4fFcVpLrNgvvglFEZS4PQ
+
+When signing to apk, use key:
+0fF6yNDO6E0wcQ9Cqq5R7dv21IPB4pf11Cqc8ag
+
+Aleks'
+7C:40:36:F8:4B:05:EF:37:7D:02:F8:3F:8D:60:50:4D
+0-HCe-KMd_sQRMTkbpiKhNA24rkG9Afhfb97T4g
+ -->
+ 
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainlayout"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <com.google.android.maps.MapView
+        android:id="@+id/mapview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:clickable="true"
+        android:apiKey="0fF6yNDO6E0yQeq_6L4fFcVpLrNgvvglFEZS4PQ"
+    />
+    
+    
+</RelativeLayout>

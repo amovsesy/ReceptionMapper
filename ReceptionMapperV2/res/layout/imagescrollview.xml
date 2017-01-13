@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:layout_width="fill_parent" -->
+<!--    android:layout_height="fill_parent">-->
+<!--    <HorizontalScrollView-->
+<!--    android:layout_width="fill_parent" -->
+<!--    android:layout_height="fill_parent">-->
+<!--   <FrameLayout-->
+<!--          android:id="@+id/frame"-->
+<!--          android:layout_width="wrap_content"-->
+<!--          android:layout_height="wrap_content"-->
+<!--          android:padding="10px">-->
+<!---->
+<!--	    <ImageView android:id="@+id/image"-->
+<!--	       android:cropToPadding="false"-->
+<!--	       android:layout_width="wrap_content"-->
+<!--	       android:layout_height="wrap_content"-->
+<!--	       android:src="@drawable/icon"-->
+<!--	       android:scaleType="center"-->
+<!--	       android:padding="10px"/>-->
+<!--        </FrameLayout>-->
+<!--        </HorizontalScrollView>-->
+<!--</ScrollView>-->
+
+<!--  
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent">
+    <ImageView android:id="@+id/image"
+	       android:cropToPadding="false"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content"
+	       android:src="@drawable/icon"
+	       android:scaleType="center"
+	       android:padding="10px"/>
+	<ImageView android:id="@+id/overlay"
+	       android:cropToPadding="false"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content"
+	       android:scaleType="center"
+	       android:padding="10px"/>
+</merge>
+-->
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/frame"
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent">
+    <com.amphro.receptionmapper.ScrollImageView android:id="@+id/image"
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent"/>
+</FrameLayout>

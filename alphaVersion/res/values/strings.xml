@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">Reception Mapper</string>
+
+
+
+<string-array name="current_networks"><item>3G Network</item>
+<item>2G Network</item>
+<item>Edge</item>
+<item>All</item>
+</string-array>
+<string-array name="what_to_display"><item>Cell Reception</item>
+<item>Network Type</item>
+</string-array>
+<string name="attPref">ATT</string>
+<string name="sprintPref">SPRINT</string>
+<string name="tmobilePref">TMOBILE</string>
+<string name="verizonPref">VERIZON</string>
+<string name="notificationExpandedTitle">Reception Mapper Service</string>
+<string name="notificationExpandedText">Running and recording data.</string>
+</resources>

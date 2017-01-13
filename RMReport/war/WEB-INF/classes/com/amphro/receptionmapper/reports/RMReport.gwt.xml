@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to='rmreport'>
+  <!-- Inherit the core Web Toolkit stuff.                        -->
+  <inherits name='com.google.gwt.user.User'/>
+  
+  <inherits name='com.google.gwt.user.theme.chrome.Chrome'/> 
+
+  <!-- Module inherits                                      -->
+  <inherits name='com.google.gwt.maps.GoogleMaps'/>
+  <inherits name='com.smartgwt.SmartGwt'/>
+  
+  <script src="http://maps.google.com/maps?gwt=1&amp;file=api&amp;v=2&amp;key=ABQIAAAADoIzOCKXtlt4rgH5D_GdWxRpHs5SAmTz5lVepdQ3hhALq_oonBRYSOvk_dqYORK4iBKWz8eemcQ1XQ" />
+  
+  <!-- Specify the app entry point class.                         -->
+  <entry-point class='com.amphro.receptionmapper.reports.client.RMReport'/>
+
+  <!-- Specify the paths for translatable code                    -->
+  <source path='client'/>
+  <source path='shared'/>
+ 
+</module>

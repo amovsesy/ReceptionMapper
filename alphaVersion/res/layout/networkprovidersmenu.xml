@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/layout_root"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="10dp"
+    >
+	<TextView android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/TextView01" android:text="Select Providers to Display"></TextView><RadioGroup android:id="@+id/providers" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content">
+		<CheckBox android:text="ATT" 
+			android:id="@+id/att" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content">
+		</CheckBox>
+		<CheckBox android:text="Sprint" 
+			android:id="@+id/sprint" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content">
+		</CheckBox>
+		<CheckBox android:text="T-Mobile" 
+			android:id="@+id/tmobile" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content">
+		</CheckBox>
+		<CheckBox android:text="Verizon" 
+			android:id="@+id/verizon" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content">
+		</CheckBox>		
+	</RadioGroup>
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/layout_root_button"
+    	android:orientation="horizontal"
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	>
+		<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/save" android:text="Save"></Button>
+		<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/cancel" android:text="Cancel"></Button>
+	</LinearLayout>	
+
+</LinearLayout>

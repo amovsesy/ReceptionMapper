@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">Reception Mapper</string>
+
+
+
+<string-array name="current_networks"><item>3G Network</item>
+<item>2G Network</item>
+<item>Edge</item>
+<item>All</item>
+</string-array>
+<string-array name="what_to_display"><item>Cell Reception</item>
+<item>Network Type</item>
+</string-array>
+<string name="attPref">ATT</string>
+<string name="sprintPref">SPRINT</string>
+<string name="tmobilePref">TMOBILE</string>
+<string name="verizonPref">VERIZON</string>
+<string name="notificationExpandedTitle">Reception Mapper Service</string>
+<string name="notificationExpandedText">Running and recording data.</string>
+
+<string name="notificationExpandedTextClosed">Reception Mapper Service Closed.  Please relaunch the app to log data.</string>
+<string name="getMapText">To get a map in your area, periodically run Reception Mapper to log data.  Once enough data is present, a map of your area will be instantly available.</string>
+</resources>

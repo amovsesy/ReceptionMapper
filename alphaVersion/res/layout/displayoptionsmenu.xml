@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/display_layout_root"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+	<RadioGroup android:id="@+id/options" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content">
+		<CheckBox android:text="Show Grid" 
+			android:id="@+id/showArea" 
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content">
+		</CheckBox>
+		<CheckBox android:id="@+id/showMarkers" 
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content" android:text="Show Markers"  android:visibility="gone">
+		</CheckBox>
+	</RadioGroup>
+	<TextView android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/whatToDisplay" android:text="Select What to Display on the Map"></TextView><Spinner android:layout_height="wrap_content" android:entries="@array/what_to_display" android:layout_width="fill_parent" android:id="@+id/whatDispalyDropDown"></Spinner><TextView android:id="@+id/networks" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" android:text="Select the Network to Display">
+	</TextView>
+	<Spinner android:id="@+id/networksDropDown" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" android:entries="@array/current_networks">
+	</Spinner>
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/display_layout_root_buttons"
+    	android:orientation="horizontal"
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	>
+		<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/saveOptions" android:text="Save"></Button>
+		<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/cancelOptions" android:text="Cancel"></Button>
+</LinearLayout>	
+
+
+</LinearLayout>

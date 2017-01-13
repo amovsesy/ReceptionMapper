@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 
+Toms's When running reception mapper in eclipse, use key:
+0fF6yNDO6E0yQeq_6L4fFcVpLrNgvvglFEZS4PQ
+
+When signing to apk, use key:
+0fF6yNDO6E0wcQ9Cqq5R7dv21IPB4pf11Cqc8ag
+
+Aleks'
+7C:40:36:F8:4B:05:EF:37:7D:02:F8:3F:8D:60:50:4D
+0-HCe-KMd_sQRMTkbpiKhNA24rkG9Afhfb97T4g
+ -->
+ 
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainlayout"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    
+    
+    
+<LinearLayout android:id="@+id/LinearLayout01" android:layout_width="wrap_content" android:layout_height="wrap_content"></LinearLayout>
+<TextView android:layout_width="wrap_content" android:layout_below="@+id/LinearLayout01" android:layout_height="wrap_content" android:id="@+id/TextView01" android:layout_marginTop="10px" android:layout_marginLeft="10px" android:text="Uploads:"></TextView>
+<ListView android:id="@+id/nodeList" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_below="@+id/TextView01"></ListView>
+<TextView android:layout_toRightOf="@+id/TextView01" android:layout_width="wrap_content" android:layout_below="@+id/LinearLayout01" android:layout_height="wrap_content" android:text="@+id/TextView02" android:id="@+id/TextView02" android:layout_marginLeft="10px" android:layout_marginTop="10px"></TextView>
+
+</RelativeLayout>
